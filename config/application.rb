@@ -28,7 +28,8 @@ module Mystore
     config.logger = ActFluentLoggerRails::Logger.new
     config.lograge.enabled = true
     config.lograge.formatter = Lograge::Formatters::Json.new
-    config.web_console.whiny_requests = false
+    #config.web_console.whiny_requests = false
+
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
